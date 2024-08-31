@@ -19,12 +19,10 @@
     "react-scripts": "latest"
   },
   "devDependencies": {
-    "@types/react": "18.3.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "5.5.4"
+    "tailwindcss": "^3.4.1"
   },
   "packageManager": "yarn@3.8.4+sha512.2fa718fa817b36ddbeb1be69b765d64749afaf0e0d582c04359f12fbd5f7f20ec52e189a531afe2e4903d792532065711adf56e0d0f559d6461a59a703ec8b44"
 }
