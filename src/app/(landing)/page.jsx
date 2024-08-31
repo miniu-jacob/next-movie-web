@@ -4,6 +4,7 @@ const LandingPage = () => {
     return (
         <div className=''>
             <Banner></Banner>
+            <div className=''>홈화면</div>
         </div>
     );
 };

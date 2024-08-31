@@ -1,5 +1,6 @@
 import { Menu } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 const Navbar = () => {
     return (
         <div className='flex justify-between md:justify-around  h-[50px] w-full items-center p-4 bg-black'>
@@ -16,8 +17,12 @@ const Navbar = () => {
                 className='grow hidden md:flex gap-4 items-center  
             h-full mx-6 font-semibold text-slate-200 flex-grow-1'
             >
-                <span>HOME</span>
-                <span>MOVIES</span>
+                <Link href='/'>
+                    <span>HOME</span>
+                </Link>
+                <Link href='/movies'>
+                    <span>MOVIES</span>
+                </Link>
             </div>
             {/*  SEARCH */}
             <div className='hidden md:flex items-center h-full mr-4 flex-grow-2 '>
